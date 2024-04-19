@@ -21,14 +21,14 @@ Gem::Specification.new do |s|
 
   s.add_dependency 'activemodel', '>= 3.2'
   s.add_dependency 'mime-types', '>= 1.0'
+  s.add_dependency 'ostruct'
 
-  s.add_development_dependency 'coveralls'
   s.add_development_dependency 'fastimage'
-  s.add_development_dependency 'marcel', '~> 0.3' if RUBY_VERSION >= '2.2.0'
+  s.add_development_dependency 'marcel', '~> 0.3'
   s.add_development_dependency 'mimemagic', '>= 0.3.2'
   s.add_development_dependency 'mini_mime', '~> 1.0'
   s.add_development_dependency 'rack-test'
   s.add_development_dependency 'rake'
-  s.add_development_dependency 'rspec', '~> 3.5.0'
+  s.add_development_dependency 'rspec'
   s.add_development_dependency 'rubocop', '~> 0.58.2'
 end
