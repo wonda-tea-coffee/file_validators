@@ -14,4 +14,4 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
-gem 'appraisal'
+gem 'rails', "~> #{ENV['RAILS_VERSION']}"
